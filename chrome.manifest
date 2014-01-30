@@ -1,0 +1,6 @@
+content	dreamcatch	content/
+content     dreamcatch    content/ contentaccessible=yes
+overlay chrome://browser/content/browser.xul chrome://dreamcatch/content/browser.xul
+locale	dreamcatch	en-US	locale/en-US/
+skin	dreamcatch	classic/1.0	skin/
+style	chrome://global/content/customizeToolbar.xul	chrome://dreamcatch/skin/skin.css

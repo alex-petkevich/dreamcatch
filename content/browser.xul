@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://dreamcatch/skin/skin.css" type="text/css"?> 
+<!DOCTYPE dreamcatch SYSTEM "chrome://dreamcatch/locale/translations.dtd">
+<overlay id="sample" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+		<script src="dreamCatch.js" />
+		
+		<toolbarpalette id="BrowserToolbarPalette">
+			<toolbarbutton id="dreamcatch-toolbar-button" label="DreamCatch" tooltiptext="&rundreamcatch;" oncommand="dreamCatch.run()"/>
+		</toolbarpalette>
+</overlay>

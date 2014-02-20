@@ -1,0 +1,10 @@
+#dreamcatch-hello
+{
+}
+#dreamcatch-toolbar-button
+{
+  list-style-image: url("chrome://dreamcatch/skin/toolbar-large.jpg");
+}
+.dreamcatch-selected {
+	outline: 2px solid red !important;
+}

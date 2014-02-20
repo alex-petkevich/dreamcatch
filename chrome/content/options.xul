@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE prefwindow SYSTEM "chrome://dreamcatch/locale/options.dtd">
+<prefwindow id="dreamcatch-preferences" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="&prefwindow.title;">
+  <prefpane id="pane1" label="&pane1.title;">
+    <preferences>
+      <preference id="autorun" name="extensions.dreamcatch.autorun" type="bool"/>
+      <preference id="remoteaddr" name="extensions.dreamcatch.remoteaddr" type="string"/>
+      <preference id="regexp" name="extensions.dreamcatch.regexp" type="string"/>
+      <preference id="post" name="extensions.dreamcatch.postvar" type="string"/>
+    </preferences>
+	<groupbox>
+			<caption label="Settings"/>
+			<grid>
+				<columns>
+					<column flex="4"/>
+					<column flex="1"/>
+				</columns>
+				<rows>
+					<row>
+						<label control="autorun" value="Autorun"/>
+						<checkbox id="checkboolpref" preference="autorun" accesskey="&checkboolpref.accesskey;"/>
+					</row>
+					<row>
+						<label control="remoteaddr" value="Remote address"/>
+						 <textbox preference="remoteaddr" id="remoteaddrtext" maxlength="200"/>
+					</row>
+					<row>
+						<label control="regexp" value="Regexp to define URL"/>
+						 <textbox preference="regexp" id="regexptext" maxlength="200"/>
+					</row>
+					<row>
+						<label control="post" value="POST variable"/>
+						 <textbox preference="post" id="posttext" maxlength="200"/>
+					</row>
+				</rows>
+			</grid>
+		</groupbox>	
+   
+  </prefpane>
+</prefwindow>

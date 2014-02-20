@@ -1,0 +1,4 @@
+<!ENTITY prefwindow.title "DreamCatch preferences">
+<!ENTITY pane1.title "DreamCatch preferences">
+<!ENTITY checkboolpref.label "autorun">
+<!ENTITY checkboolpref.accesskey "A">

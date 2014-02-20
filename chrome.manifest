@@ -1,0 +1,5 @@
+content   dreamcatch                 chrome/content/
+skin      dreamcatch   classic/1.0   chrome/skin/
+locale    dreamcatch   en-US         chrome/locale/en-US/
+overlay	chrome://browser/content/browser.xul	chrome://dreamcatch/content/ff-overlay.xul
+style	chrome://global/content/customizeToolbar.xul	chrome://dreamcatch/skin/overlay.css

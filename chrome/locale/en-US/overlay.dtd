@@ -1,0 +1,7 @@
+<!ENTITY dreamcatch.label "DreamCatch">
+<!ENTITY dreamcatchContext.label "DreamCatch">
+<!ENTITY dreamcatchContext.accesskey "D">
+<!ENTITY dreamcatchToolbarButton.label "Run My Dream!">
+<!ENTITY dreamcatchToolbarButton.tooltip "Click to send data">
+<!ENTITY dreamcatchToolbar.name  "DreamCatch">
+<!ENTITY dreamcatchToolbar.label "DreamCatch tool">
